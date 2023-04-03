@@ -13,6 +13,12 @@ configurations {
 }
 
 repositories {
+  maven { url 'https://maven.aliyun.com/repository/jcenter' }
+  maven { url 'https://maven.aliyun.com/repository/google' }
+  maven { url 'https://maven.aliyun.com/repository/central' }
+  maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+  google()
+  jcenter()
   maven { url "http://conjars.org/repo" }
 }
 

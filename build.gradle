@@ -32,6 +32,17 @@ allprojects {
   apply plugin: "com.diffplug.spotless"
 
   repositories {
+    maven{
+      url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+    maven{
+      url 'https://repository.cloudera.com/artifactory/cloudera-repos/'
+    }
+
+    maven {
+      url 'https://maven.aliyun.com/repository/spring-plugin'
+    }
+
     mavenCentral()
     maven {
       url 'https://linkedin.jfrog.io/artifactory/avro-util/'
