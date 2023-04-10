@@ -41,7 +41,7 @@ public class TranslationController implements ApplicationListener<ContextRefresh
   private String hivePropsLocation;
 
   private final static ImmutableMap<String, String> LANGUAGE_MAP =
-      ImmutableMap.of("hive", "Hive QL", "trino", "Trino SQL", "spark", "Spark SQL");
+      ImmutableMap.of("hive", "Hive QL", "trino", "Trino SQL", "spark", "Spark SQL","doris","Doris SQL");
 
   @Override
   public void onApplicationEvent(ContextRefreshedEvent event) {
